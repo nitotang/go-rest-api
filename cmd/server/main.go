@@ -42,7 +42,7 @@ func (app *App) Run() error {
 
 // Our main entrypoint for the application
 func main() {
-	fmt.Println("Go REST API course")
+	fmt.Println("REST API init")
 	app := App{}
 	if err := app.Run(); err != nil {
 		fmt.Println("Error Starting Up")
